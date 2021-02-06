@@ -196,10 +196,6 @@ contract Treasury is ContractGuard, Epoch {
         seigniorageOracle = _seigniorageOracle;
     }
 
-    function setCashPriceCeiling (uint256 cashPriceCeiling_) public onlyOperator {
-        cashPriceCeiling = cashPriceCeiling_;
-    }
-
     function setBoardroom (address boardroom_) public onlyOperator {
         boardroom = boardroom_;
     }
